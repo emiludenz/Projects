@@ -1,0 +1,102 @@
+[
+ {
+  "Error": {
+   "Message": "ERRORED! Got Exception (if any): ERROR: Bot #0: Received invalid character '  File \"MyBotv2.py\", line 27, in <module>F'. (at character 3.)\nInput received from bot:\n  File \"MyBotv2.py\", line 27, in <module>\n  ^; Response received (if any):   File \"MyBotv2.py\", line 27, in <module>    logging.info(game_map._players)NameError: name 'game_map' is not defined",
+   "Turn": 1
+  },
+  "Frames": [
+   {
+    "Time": 123,
+    "Turn": 0
+   },
+   {
+    "Time": 0
+   }
+  ],
+  "PlayerID": 0,
+  "PlayerName": "Traceback (most recent call la"
+ },
+ {
+  "Error": {},
+  "Frames": [
+   {
+    "Time": 64,
+    "Turn": 0
+   },
+   {
+    "Commands": [
+     {
+      "angle": 173,
+      "magnitude": 1,
+      "owner": 1,
+      "queue_number": 0,
+      "shipId": 5,
+      "type": "thrust"
+     },
+     {
+      "angle": 167,
+      "magnitude": 1,
+      "owner": 1,
+      "queue_number": 0,
+      "shipId": 4,
+      "type": "thrust"
+     },
+     {
+      "angle": 170,
+      "magnitude": 1,
+      "owner": 1,
+      "queue_number": 0,
+      "shipId": 3,
+      "type": "thrust"
+     }
+    ],
+    "Planets": null,
+    "Ships": [
+     {
+      "cooldown": 0,
+      "docking": {
+       "status": "undocked"
+      },
+      "health": 255,
+      "id": 5,
+      "owner": 1,
+      "vel_x": 0.0,
+      "vel_y": 0.0,
+      "x": 179.00745384835867,
+      "y": 83.121869343405152
+     },
+     {
+      "cooldown": 0,
+      "docking": {
+       "status": "undocked"
+      },
+      "health": 255,
+      "id": 4,
+      "owner": 1,
+      "vel_x": 0.0,
+      "vel_y": 0.0,
+      "x": 179.02562993521477,
+      "y": 77.224951054343862
+     },
+     {
+      "cooldown": 0,
+      "docking": {
+       "status": "undocked"
+      },
+      "health": 255,
+      "id": 3,
+      "owner": 1,
+      "vel_x": 0.0,
+      "vel_y": 0.0,
+      "x": 179.01519224698779,
+      "y": 80.173648177666934
+     }
+    ],
+    "Time": 0,
+    "Turn": 1
+   }
+  ],
+  "PlayerID": 1,
+  "PlayerName": "Settler"
+ }
+]

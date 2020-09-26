@@ -1,0 +1,6 @@
+/home/emil/Projects/calculator/calculator/bin/Debug/calculator.exe
+/home/emil/Projects/calculator/calculator/bin/Debug/calculator.pdb
+/home/emil/Projects/calculator/calculator/obj/x86/Debug/calculator.csprojAssemblyReference.cache
+/home/emil/Projects/calculator/calculator/obj/x86/Debug/calculator.csproj.CoreCompileInputs.cache
+/home/emil/Projects/calculator/calculator/obj/x86/Debug/calculator.exe
+/home/emil/Projects/calculator/calculator/obj/x86/Debug/calculator.pdb

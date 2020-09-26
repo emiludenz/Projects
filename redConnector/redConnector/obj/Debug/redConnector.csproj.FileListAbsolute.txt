@@ -1,0 +1,9 @@
+/home/emil/Projects/redConnector/redConnector/bin/Debug/redConnector.exe
+/home/emil/Projects/redConnector/redConnector/bin/Debug/redConnector.pdb
+/home/emil/Projects/redConnector/redConnector/bin/Debug/HtmlAgilityPack.dll
+/home/emil/Projects/redConnector/redConnector/bin/Debug/HtmlAgilityPack.pdb
+/home/emil/Projects/redConnector/redConnector/obj/Debug/redConnector.csprojAssemblyReference.cache
+/home/emil/Projects/redConnector/redConnector/obj/Debug/redConnector.csproj.CoreCompileInputs.cache
+/home/emil/Projects/redConnector/redConnector/obj/Debug/redConnector.csproj.CopyComplete
+/home/emil/Projects/redConnector/redConnector/obj/Debug/redConnector.exe
+/home/emil/Projects/redConnector/redConnector/obj/Debug/redConnector.pdb

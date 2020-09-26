@@ -1,0 +1,26 @@
+48c48
+< Moving from the in-line analysis and into phase 3, the in-depth analysis, we will be analysing our findings in such way that we will be able to improve the platform according to the target users’ needs and problems. We will achieve this by performing user study analyses which are processed using ethnographic tools, followed by idea development based on these findings.
+---
+> Moving from the in-line analysis and into phase 3, the in-depth analysis, we will be analysing our findings in such a way that we will be able to improve the platform according to the target users’ needs, problems and requests. We will achieve this by performing user study analyses which are processed using ethnographic tools, followed by idea development based on these findings.
+50c50,51
+<     \centering
+---
+>     % \centering
+>     \hspace*{-1.25cm}
+59,60c60,61
+< The goals for the expansion of the platform is overall to improve how data is processed and accessed; e.g. improving how the tests results are displayed, adding a calendar to gain overview, making a contact list to facilitate easy contact, etc.
+< By understanding the perspective that the target group presents in their day to day interaction with the platform, we experience numerous problems and needs that for most of them has a significant influence on the use of the \textit{MinSP}. 
+---
+> The goals for the expansion of the platform is overall to improve how data is processed and accessed; e.g. improving the way test results are displayed, adding a calendar to gain overview, making a contact list to facilitate easy contact, etc.
+> By understanding the perspective that the target group presents in their day to day interaction with the platform, we experience numerous problems and needs. These are things that have a significant influence on the use of the \textit{MinSP} for most users. 
+210a212,221
+> Highest priority user stories:\\
+> 
+> \begin{enumerate}
+>     \item 
+>     
+>     \item
+>     
+>     \item
+> \end{enumerate}
+>

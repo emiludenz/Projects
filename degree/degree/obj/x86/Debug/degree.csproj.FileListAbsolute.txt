@@ -1,0 +1,6 @@
+/home/emil/Projects/degree/degree/bin/Debug/degree.exe
+/home/emil/Projects/degree/degree/bin/Debug/degree.pdb
+/home/emil/Projects/degree/degree/obj/x86/Debug/degree.csprojAssemblyReference.cache
+/home/emil/Projects/degree/degree/obj/x86/Debug/degree.csproj.CoreCompileInputs.cache
+/home/emil/Projects/degree/degree/obj/x86/Debug/degree.exe
+/home/emil/Projects/degree/degree/obj/x86/Debug/degree.pdb

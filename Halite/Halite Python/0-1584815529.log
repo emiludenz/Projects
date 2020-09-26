@@ -1,0 +1,102 @@
+[
+ {
+  "Error": {
+   "Message": "ERRORED! Got Exception (if any): ERROR: Bot #0: Received invalid character 'Traceback (most recent call last):T'. (at character 1.)\nInput received from bot:\nTraceback (most recent call last):\n^; Response received (if any): Traceback (most recent call last):  File \"MyBotv2.py\", line 52, in <module>    if planet.is_owned():AttributeError: 'list' object has no attribute 'is_owned'",
+   "Turn": 1
+  },
+  "Frames": [
+   {
+    "Time": 64,
+    "Turn": 0
+   },
+   {
+    "Time": 146
+   }
+  ],
+  "PlayerID": 0,
+  "PlayerName": "STARTER"
+ },
+ {
+  "Error": {},
+  "Frames": [
+   {
+    "Time": 64,
+    "Turn": 0
+   },
+   {
+    "Commands": [
+     {
+      "angle": 175,
+      "magnitude": 3,
+      "owner": 1,
+      "queue_number": 0,
+      "shipId": 5,
+      "type": "thrust"
+     },
+     {
+      "angle": 169,
+      "magnitude": 3,
+      "owner": 1,
+      "queue_number": 0,
+      "shipId": 4,
+      "type": "thrust"
+     },
+     {
+      "angle": 172,
+      "magnitude": 3,
+      "owner": 1,
+      "queue_number": 0,
+      "shipId": 3,
+      "type": "thrust"
+     }
+    ],
+    "Planets": null,
+    "Ships": [
+     {
+      "cooldown": 0,
+      "docking": {
+       "status": "undocked"
+      },
+      "health": 255,
+      "id": 5,
+      "owner": 1,
+      "vel_x": 0.0,
+      "vel_y": 0.0,
+      "x": 177.01141590572476,
+      "y": 83.261467228242978
+     },
+     {
+      "cooldown": 0,
+      "docking": {
+       "status": "undocked"
+      },
+      "health": 255,
+      "id": 4,
+      "owner": 1,
+      "vel_x": 0.0,
+      "vel_y": 0.0,
+      "x": 177.05511844965702,
+      "y": 77.572426986129642
+     },
+     {
+      "cooldown": 0,
+      "docking": {
+       "status": "undocked"
+      },
+      "health": 255,
+      "id": 3,
+      "owner": 1,
+      "vel_x": 0.0,
+      "vel_y": 0.0,
+      "x": 177.0291957937753,
+      "y": 80.417519302880194
+     }
+    ],
+    "Time": 0,
+    "Turn": 1
+   }
+  ],
+  "PlayerID": 1,
+  "PlayerName": "Settler"
+ }
+]

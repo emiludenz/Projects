@@ -1,0 +1,6 @@
+/home/emil/Projects/MathParser/MathParser/bin/Debug/MathParser.exe
+/home/emil/Projects/MathParser/MathParser/bin/Debug/MathParser.pdb
+/home/emil/Projects/MathParser/MathParser/obj/Debug/MathParser.csprojAssemblyReference.cache
+/home/emil/Projects/MathParser/MathParser/obj/Debug/MathParser.csproj.CoreCompileInputs.cache
+/home/emil/Projects/MathParser/MathParser/obj/Debug/MathParser.exe
+/home/emil/Projects/MathParser/MathParser/obj/Debug/MathParser.pdb

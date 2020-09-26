@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Random Eat",
+  "version": "1.0",
+
+  "description": "Adds a option to select a random meal from just eat.",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.just-eat.dk/*"],
+      "js": ["random_choice.js"]
+    }
+  ]
+
+}

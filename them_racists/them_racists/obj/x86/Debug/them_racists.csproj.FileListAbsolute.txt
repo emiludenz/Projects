@@ -1,0 +1,6 @@
+/home/emil/Projects/them_racists/them_racists/bin/Debug/them_racists.exe
+/home/emil/Projects/them_racists/them_racists/bin/Debug/them_racists.pdb
+/home/emil/Projects/them_racists/them_racists/obj/x86/Debug/them_racists.csprojAssemblyReference.cache
+/home/emil/Projects/them_racists/them_racists/obj/x86/Debug/them_racists.csproj.CoreCompileInputs.cache
+/home/emil/Projects/them_racists/them_racists/obj/x86/Debug/them_racists.exe
+/home/emil/Projects/them_racists/them_racists/obj/x86/Debug/them_racists.pdb

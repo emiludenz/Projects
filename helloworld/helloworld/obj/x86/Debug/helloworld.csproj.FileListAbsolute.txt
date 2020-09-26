@@ -1,0 +1,6 @@
+/home/emil/Projects/helloworld/helloworld/bin/Debug/helloworld.exe
+/home/emil/Projects/helloworld/helloworld/bin/Debug/helloworld.pdb
+/home/emil/Projects/helloworld/helloworld/obj/x86/Debug/helloworld.csprojAssemblyReference.cache
+/home/emil/Projects/helloworld/helloworld/obj/x86/Debug/helloworld.csproj.CoreCompileInputs.cache
+/home/emil/Projects/helloworld/helloworld/obj/x86/Debug/helloworld.exe
+/home/emil/Projects/helloworld/helloworld/obj/x86/Debug/helloworld.pdb

@@ -1,0 +1,262 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{graphicx}
+\usepackage{su19}
+
+\begin{document}
+\begin{titlepage}
+    \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+    \center
+    \textsc{\LARGE University of Copenhagen}\\[1.5cm]
+    \textsc{\Large Development of Information Systems}\\[0.5cm]
+    \textsc{Course ID: NDAB16009U}
+
+    \vfill
+    \HRule\\[0.4cm]
+    {\huge\bfseries Assignment 2}\\[0.4cm]
+    \HRule\\[1.5cm]
+
+    \large\textit{\textbf{Authors}}
+    
+    \large\textit{\textbf{Team 2 -  group 8}}
+    \\Emil Bæk Henriksen - \texttt{WSL798}
+    \\Jasmin Brinch Pedersen - \texttt{WCP197}
+    \\Jonatan Geysner Hvidberg - \texttt{PJC990}
+    \\Simon Gram Gregersen - \texttt{JSH981}
+    
+    \vfill
+
+    \large\textit{\textbf{Teaching Assistant}}
+    \\Ziming Luo
+    \\Marco Ugo Gambetta
+
+    \vfill
+    \large\textit{\textbf{Deadline}}
+    \\24th of April
+    \vfill
+
+\includegraphics[width=0.7\textwidth]{pics/ucph.png}
+\end{titlepage}
+
+\pagenumbering{arabic}
+
+\newpage
+\tableofcontents
+\newpage
+\section{Background}
+In this report we will present our results of the gathered data from patients with diabetes. However, due to the Covid-19 we have faced a few challenges in regard to the desired in-situ interviews with the target group. For example, instead of in-situ interviews we have shifted over to a more quantitative approach in form of surveys. Nonetheless, these surveys have also provided us with novel problems and needs which we did not observe in our first qualitative interview.\\
+
+Moving from the in-line analysis and into phase 3, the in-depth analysis, we will be analysing our findings in such a way that we will be able to improve the platform according to the target users’ needs, problems and requests. We will achieve this by performing user study analyses which are processed using ethnographic tools, followed by idea development based on these findings.
+\begin{figure}[H]
+    % \centering
+    \hspace*{-1.25cm}
+    \includegraphics[scale=0.6]{pics/BaseLine_diagram.png}
+    \caption{Baseline diagram giving an overview of where in the process we are, in this case we have just finished the in-depth analysis phase.}
+    \label{fig:my_label}
+\end{figure}
+
+\section{Goals, problems and needs}
+
+\subsection{Goals}
+The goals for the expansion of the platform is overall to improve how data is processed and accessed; e.g. improving the way test results are displayed, adding a calendar to gain overview, making a contact list to facilitate easy contact, etc.
+By understanding the perspective that the target group presents in their day to day interaction with the platform, we experience numerous problems and needs. These are things that have a significant influence on the use of the \textit{MinSP} for most users. 
+
+\subsection{Needs}
+
+\subsection{Problems}
+
+\section{MoSCoW}
+%Udkast til afsnit, kom gerne med ændringer
+Analyzing the data gathered from interviews and surveys we could construct user stories that we use to create the following MoSCoW model.
+
+The most frequent topics from user stories are used to place them into the MoSCoW model.
+
+\subsection{Must have}
+\begin{figure}[H]{\textwidth}
+    \centering
+    \begin{tabular}{|c|c|}
+    \hline
+     \textbf{Functionality} & \textbf{Reasons} \\\hline
+     Search options &\makecell{More then [some amount of people asked]\\ wanted to have a way to find specific entries}  \\\hline
+     Filtering Options & \makecell{As most of the asked users would like \\a way to only see specific type of results specific entries } \\\hline
+\end{tabular}{}
+    \caption{Caption}
+    \label{fig:my_label}
+\end{figure}{}
+
+\subsection{Should have}
+
+\begin{figure}[H]{\textwidth}
+    \centering
+    
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Functionality} & \textbf{Reasons} \\\hline                                    
+\multicolumn{1}{|c|}{contact doctors display}                 & \makecell{Have all the doctors available with\\ whom you are in contact would \\make patients more safe}                                             \\ \hline
+description of functionality                                  & \makecell{many functions seems like there are similar, \\that is why they have been asked for \\description of the various functions}                                   \\ \hline
+streamlined information                                       & \makecell{the patients fint it frustrating that the older data\\ was structured differently. Information with\\ the same type of content\\ must be printed in the same way} \\ \hline
+\end{tabular}
+
+    \caption{Caption}
+    \label{fig:my_label}
+\end{figure}{}
+\subsection{Could have}
+
+\begin{figure}[H]{\textwidth}
+    \centering
+    \begin{tabular}{|c|c|}
+\hline
+\textbf{Functionality} & \textbf{Reasons} \\\hline 
+See only relevant functions              & \makecell{there are many different kinds of diseases\\ and they have to use the platform for different things,\\ this creates matted mess which is hard to find around in.\\ there has been asked for a a platform where only the functions\\ that are relevant to the patient is present} \\ \hline
+\end{tabular}
+    \caption{Caption}
+    \label{fig:my_label}
+\end{figure}{}
+
+\subsection{Won't have}
+
+\begin{figure}[H]{\textwidth}
+    \centering
+
+\begin{tabular}{|l|l|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Functionality}}   & \multicolumn{1}{c|}{\textbf{Reasons}}\\ \hline
+\multicolumn{1}{|c|}{Not overlooking information} & \makecell{some patients gets large amounts of information and it is\\ possible that something has been\\ overlooked due to the large number of notifications}                                                                                                           \\ \hline
+\makecell{hospitalization\\ information\\ synchronization}    & \makecell{information from hospitalization is saved somewhere\\ else as it is another sector}                                     \\ \hline
+\makecell{Graphic changes\\ to the GUI}        & \begin{tabular}[c]{@{}l@{}}\makecell{making changes to the graphic user interface would\\be outside the scope of this project, \\even though multiply people had raised issues concerning\\ the interface and desiring a way to customize it themselves}\end{tabular} \\ \hline
+\end{tabular}
+    \caption{Caption}
+    \label{fig:my_label}
+\end{figure}{}
+
+\section{SQL}
+% https://github.com/emiludenz/UIS
+% her jasse2660 (snapchat)
+% og her JonatanHvidberg
+\subsection{A}
+\subsubsection{SQL}
+% Vælg først first name efter intersect på cpr nummer
+%SELECT first_name FROM
+\begin{minted}{sql}
+SELECT first_name FROM( 
+    SELECT first_name, cpr FROM patients WHERE cpr IN 
+        (SELECT cpr FROM patient_allergies WHERE allergen IN 
+            (SELECT allergen FROM allergies WHERE allergy_type = 'animals'))
+INTERSECT
+    SELECT first_name, cpr FROM patients WHERE cpr IN 
+        (SELECT cpr FROM patient_allergies WHERE allergen IN 
+            (SELECT allergen FROM allergies WHERE allergy_type = 'pollen')) 
+) AS fname;
+
+\end{minted}
+%SELECT first_name FROM (SELECT first_name,cpr FROM patients where cpr in
+%(SELECT cpr FROM patient_allergies where allergen in 
+%(SELECT allergen FROM allergies where allergy_type = 'pollen')))
+% not done
+% Bruger vi ikke komma i stedet for "and"? :)
+
+
+%http://mlwiki.org/index.php/Translating_SQL_to_Relational_Algebra
+\subsubsection{Relational Algebra}
+\begin{align*}
+   E_1&= \pi_{cpr} (patient\_allergies \bowtie_{allergies.allergy\_type=dyr} allergies)\\
+   E_2&=  \pi_{cpr} (patient\_allergies \bowtie_{allergies.allergy\_type=pollem} allergies)\\
+      & \pi_{first\_name} (patients \bowtie (E1 \bowtie_{E1.cpr=E2.cpr} E2))
+\end{align*}
+
+\subsection{B}
+% For each allergy type, list the allergy type and the number of patients that have that allergy type. NOTE: In the output, all allergy types must be listed, even if the number of patients with that allergy type is zero. (extended relational algebra and SQL, i.e., state the same query twice, once in each language)
+\subsubsection{SQL}
+
+\begin{minted}{sql}
+SELECT a.allergy_type, count(p) FROM allergies AS a
+    LEFT JOIN patient_allergies AS p
+    ON a.allergen = p.allergen 
+    GROUP BY a.allergy_type;
+\end{minted}
+
+\subsubsection{Relational Algebra}
+\begin{align*}
+   \pi_{allergies.allergy\_type, F_{count( patient\_allergies )}} (allergies \leftouterjoin patient\_allergies)
+\end{align*}
+
+\subsection{C}
+% List the pairs of CPR numbers for patients that are allergic to exactly the same set of allergens. NOTE: In the output, please make sure to only list pairs (i,j) and not (j,i); also, you should not pair a patient with him/herself. (SQL)
+\subsubsection{SQL}
+
+\begin{minted}{sql}
+SELECT pa.cpr, pa.cpr
+FROM patient_allergies AS pa
+\end{minted}
+
+%noget ala det her
+\begin{minted}{sql}
+SELECT DISTINCT a.cpr,b.cpr FROM 
+    (SELECT a.allergen, a.cpr, b.cpr FROM patient_allergies AS a
+CROSS JOIN patient_allergies AS b) AS foo;
+\end{minted}
+
+
+
+%Notes Work
+% cpr 1 | cpr 2 
+% cpr 45 | cpr 55
+% 
+
+%cpr1 | A | B | a
+%cpr2 | A | B | a
+%cpr45 | B | a
+%cpr55 | B | a
+%select distinct cpr from patient_allergies;
+
+\subsection{Queries to our ER diagram}
+Highest priority user stories:\\
+
+\begin{enumerate}
+    \item 
+    
+    \item
+    
+    \item
+\end{enumerate}
+
+
+
+\newpage
+\section{To do's}
+\begin{enumerate}
+    \item brainstorm ideér
+    \item userstories (Emil & Jasmin) DONE. or something
+    \item SQL %https://github.com/emiludenz/UIS
+    \begin{itemize}
+        \item 3 queries to our database
+        \item algebra to the two first queries (Jonatan) DONE
+        \item the third one, c) - (Simon :))
+        \item Lav en falsk database som vi kan lave vores egne queries på (Jonatan)
+    \end{itemize}{}
+    \item MoSCoW (hører halvt under analyse delen?) (Jasmin og Emil)
+    \item Analysér data (Emil \& Jasmin)
+    \begin{itemize}
+        \item surveys DONE.
+        \item interview with waleed DONE.
+        \item Skriv noter til analyse DONE.
+    \end{itemize}
+    \item Clean up (alle)
+\end{enumerate}
+
+
+\section{}
+\section{Appendix}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.60]{pics/E_R_MinSundhedsplatform2.png}
+    \caption{E/R diagram (thick frames around entities and relation means that they are weak.)}
+    \label{fig:er}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.50]{pics/SWOT.png}
+    \caption{SWOT diagram}
+    \label{fig:er}
+\end{figure}
+\end{document}
